@@ -59,10 +59,11 @@ private:
     struct Node
     {
         T info;
-        Node* next;
+        Node* next = nullptr;
     };
 
 	Node* topPtr;
+    int length;
 };
 
 #include "StackType.cpp"
